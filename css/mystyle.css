@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding-top:93px;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+header {
+  background-color: rgba(0,0,0,0.7);
+  position: fixed;
+  width:100%;
+  top:0;
+  z-index:1;
+}
+h1 {
+  display: inline-block;
+}
+h1 img { width: 250px; }
+h1 img:hover{
+
+
+}
+.bgimage {
+  background: url(../img/bgimage.jpg) no-repeat center center;
+  background-size: 100% auto;
+  height: 630px;
+  width: 100%;
+}
+.menu{
+
+  list-style-type: none;
+  display:inline-block;
+  float: right;
+
+}
+.menu li {
+  display: inline-block;
+  color:#fff;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+.menu li a:hover{
+  border-bottom:1px solid lightgrey;
+  color: black;
+  font-family: cursive;
+  font-size: 15px;
+  display: inline-block;
+}
+.menu li a{
+  transition: all ease 1s;
+padding: 20px;
+border-bottom:1px solid transparent;
+display: inline-block;
+  text-decoration: none;
+  color:#fff;
+  font-size: 15px;
+}
+footer{
+  text-align: center;
+  position:fixed;
+  bottom:0;
+  width:100%;
+background-color: rgba(0, 0, 0, 0.7);
+}
+
+.foot{
+  display: inline-block;
+
+}
+.foot ul{
+  list-style-type: none;
+}
+.foot li{
+  display: inline-block;
+  padding: 10px;
+}
+.foot li a{
+  color:#fff;
+}
+.example1{
+display: inline-block;
+}
+.example2{
+
+display: inline-block;
+
+}
+.eg1{
+  border:1px solid black;
+  display: inline-block;
+  width: 250px;
+  position: relative;
+  color:#fff;
+
+}
+.eg2{
+  display: inline-block;
+  width: 250px;
+  position: relative;
+  color: #fff;
+  border:1px solid black;
+  bottom:20px;
+  background-position:right center;
+}
+.fb a:hover{
+  color: #3b5998;
+}
+.twitter a:hover{
+  color:#55acee;
+}
+
+.instagram a:hover{
+  color: #405de6;
+}
+.image1{
+  background-image: url(img/gamecover.jpg);
+}
